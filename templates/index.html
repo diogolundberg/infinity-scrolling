@@ -22,7 +22,7 @@ $(function(){
 			 $('#loading').fadeOut();
 			 var i = 0;
 			 $(elementsLoaded).fadeInWithDelay();
-			 if ($('#content').children().size() > 100){ // if more than 100 results already loaded, then stop pagination (only for testing)
+			 if ($('#content').children().size() > 10000){ // if more than 100 results already loaded, then stop pagination (only for testing)
 			 	$('#nomoreresults').fadeIn();
 				$('#content').stopScrollPagination();
 			 }
